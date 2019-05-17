@@ -1,4 +1,4 @@
-package com.example.navegacioninferior.app;
+package com.example.navegacioninferior;
 
 import android.app.Application;
 import android.text.TextUtils;
@@ -48,10 +48,4 @@ public class MyAplication extends Application{
             mRequestQueue.cancelAll(tag);
         }
     }
-
-
-
-
-
-
 }
